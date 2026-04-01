@@ -6,7 +6,7 @@ The project can also be configured to publish ETA and weather values via MQTT fo
 
 This exporter was developed and tested with an ETA Pelletkessel PelletsCompact 20 model.
 
-<a href="https://buymeacoffee.com/durop" target="_blank" rel="noopener noreferrer">Buy Me A Coffee</a>
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=durop&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/durop)
 
 Tip: If you open the Buy Me a Coffee page on your phone, you can pay with Google Pay or Apple Pay.
 
