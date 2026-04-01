@@ -62,7 +62,7 @@ describe('config', () => {
   describe('weatherLatitude (float env)', () => {
     it('uses the default value when WEATHER_LATITUDE is not set', () => {
       delete process.env['WEATHER_LATITUDE'];
-      expect(loadConfig().weatherLatitude).toBe(48.092685);
+      expect(loadConfig().weatherLatitude).toBe(47.665368);
     });
 
     it('reads WEATHER_LATITUDE as a float', () => {
@@ -72,7 +72,7 @@ describe('config', () => {
 
     it('falls back to the default when WEATHER_LATITUDE is not a valid float', () => {
       process.env['WEATHER_LATITUDE'] = 'invalid';
-      expect(loadConfig().weatherLatitude).toBe(48.092685);
+      expect(loadConfig().weatherLatitude).toBe(47.665368);
     });
   });
 
