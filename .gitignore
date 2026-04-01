@@ -1,0 +1,17 @@
+node_modules
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build and coverage output
+dist
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
