@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import { collectDefaultMetrics, register, Gauge } from 'prom-client';
 import { ApiService } from './services/api.service';
