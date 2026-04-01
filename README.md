@@ -48,8 +48,8 @@ The exporter now supports runtime configuration through environment variables in
 | `ETA_REQUEST_TIMEOUT_MS`     | `30000`                                     | Timeout for ETA HTTP requests              |
 | `ETA_SCRAPE_INTERVAL_MS`     | `120000`                                    | ETA metric refresh interval                |
 | `WEATHER_API_URL`            | `https://api.brightsky.dev/current_weather` | Weather API endpoint                       |
-| `WEATHER_LATITUDE`           | `48.092685`                                 | Latitude sent to Bright Sky                |
-| `WEATHER_LONGITUDE`          | `10.422519`                                 | Longitude sent to Bright Sky               |
+| `WEATHER_LATITUDE`           | `47.665368`                                 | Latitude sent to Bright Sky                |
+| `WEATHER_LONGITUDE`          | `9.705342`                                  | Longitude sent to Bright Sky               |
 | `WEATHER_MAX_DIST`           | `50000`                                     | Maximum weather station distance in meters |
 | `WEATHER_TIMEZONE`           | `Europe/Berlin`                             | Time zone sent to Bright Sky               |
 | `WEATHER_REQUEST_TIMEOUT_MS` | `30000`                                     | Timeout for weather API requests           |
@@ -70,8 +70,8 @@ Example:
 ```bash
 PORT=3000 \
 ETA_BASE_URL=http://192.168.30.30:8080 \
-WEATHER_LATITUDE=48.092685 \
-WEATHER_LONGITUDE=10.422519 \
+WEATHER_LATITUDE=47.665368 \
+WEATHER_LONGITUDE=9.705342 \
 npm start
 ```
 
